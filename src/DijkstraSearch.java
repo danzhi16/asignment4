@@ -59,9 +59,7 @@ public class DijkstraSearch<T> implements Search<T> {
             return this.vertex;
         }
 
-        public double getDistance() {
-            return this.distance;
-        }
+       
 
         @Override
         public int compareTo(VertexDistance<T> other) {
