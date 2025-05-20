@@ -1,4 +1,3 @@
-java
 import java.util.*;
 
 public class DijkstraSearch<T> implements Search<T> {
